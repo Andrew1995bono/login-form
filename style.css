@@ -1,0 +1,66 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Martel', serif;
+}
+
+body, html {
+	background: url(backgroundimage.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0px;
+}
+
+p {
+	font-size: 20px;
+	margin: 15px 0px;
+}
+
+input {
+	font-size: 16px;
+	width: 94%;
+	padding: 15px 10px;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+}
+
+.login-form {
+	width: 350px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: #ffffff;
+}
+
+button {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0px;
+	padding: 10px 15px;
+	width: 40%;
+	border-radius: 5px;
+	border: none;
+}
+
+.login {
+	float: left;
+}
+
+.reset {
+	float: right;
+}
+
+button:hover {
+	background-color: rgba(127, 202, 132, 0.3);
+	cursor: pointer;
+}
